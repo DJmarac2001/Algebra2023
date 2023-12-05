@@ -1,0 +1,29 @@
+<svg id='Computer_Controller_2_24' width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+
+
+<g transform="matrix(1.43 0 0 1.43 12 12)" >
+<g style="" >
+<g transform="matrix(1 0 0 1 0.02 -0.35)" >
+<path style="stroke: rgb(0,0,0); stroke-width: 1.048951048951049; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" transform=" translate(-7, -6.63)" d="M 0.499983 8 C 0.499983 9.51878 1.7312 10.75 3.24998 10.75 C 4.41597 10.75 5.41248 10.0243 5.81251 9 L 8.18748 9 C 8.58752 10.0243 9.58402 10.75 10.75 10.75 C 12.2688 10.75 13.5 9.51878 13.5 8 L 13.5 5.49998 C 13.5 3.84314 12.1568 2.5 10.5 2.5 L 3.49997 2.5 C 1.84311 2.5 0.49996 3.84316 0.499969 5.50002 L 0.499983 8 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 -3.48 -0.98)" >
+<path style="stroke: rgb(0,0,0); stroke-width: 1.048951048951049; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" transform=" translate(-3.5, -6)" d="M 3.5 4.99988 L 3.5 6.99988" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 -3.48 -0.98)" >
+<path style="stroke: rgb(0,0,0); stroke-width: 1.048951048951049; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" transform=" translate(-3.5, -6)" d="M 2.5 5.99988 L 4.5 5.99988" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 4.15 -1.73)" >
+<path style="stroke: rgb(0,0,0); stroke-width: 1.048951048951049; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" transform=" translate(-11.13, -5.25)" d="M 11.2501 5.5 C 11.112 5.5 11.0001 5.38807 11.0001 5.25 C 11.0001 5.11193 11.112 5 11.2501 5" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 4.4 -1.73)" >
+<path style="stroke: rgb(0,0,0); stroke-width: 1.048951048951049; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" transform=" translate(-11.38, -5.25)" d="M 11.2501 5.5 C 11.3881 5.5 11.5001 5.38807 11.5001 5.25 C 11.5001 5.11193 11.3881 5 11.2501 5" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 2.15 -0.23)" >
+<path style="stroke: rgb(0,0,0); stroke-width: 1.048951048951049; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" transform=" translate(-9.13, -6.75)" d="M 9.25 6.99988 C 9.11193 6.99988 9 6.88795 9 6.74988 C 9 6.61181 9.11193 6.49988 9.25 6.49988" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 2.4 -0.23)" >
+<path style="stroke: rgb(0,0,0); stroke-width: 1.048951048951049; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" transform=" translate(-9.38, -6.75)" d="M 9.25 6.99988 C 9.38807 6.99988 9.5 6.88795 9.5 6.74988 C 9.5 6.61181 9.38807 6.49988 9.25 6.49988" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

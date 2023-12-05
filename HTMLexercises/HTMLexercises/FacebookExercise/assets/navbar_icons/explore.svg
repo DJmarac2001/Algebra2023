@@ -1,0 +1,17 @@
+<svg id='Compass_Directions_24' width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+
+
+<g transform="matrix(0.83 0 0 0.83 12 12)" >
+<g style="" >
+<g transform="matrix(1 0 0 1 0.15 0.15)" >
+<path style="stroke: rgb(0,0,0); stroke-width: 1.8072289156626506; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" transform=" translate(-12, -12)" d="M 0.75 12 C 0.75 18.213203435596427 5.7867965644035735 23.25 12 23.25 C 18.213203435596427 23.25 23.25 18.213203435596427 23.25 12 C 23.25 5.7867965644035735 18.213203435596427 0.75 12 0.75 C 5.7867965644035735 0.75 0.75 5.786796564403572 0.75 11.999999999999998 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 1.43 -1.13)" >
+<path style="stroke: rgb(0,0,0); stroke-width: 1.8072289156626506; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" transform=" translate(-13.28, -10.72)" d="M 17.58 7.516 C 17.686358169958282 7.203292398759174 17.605797067109904 6.8573177029213275 17.372239682094285 6.6237603179057105 C 17.13868229707867 6.390202932890094 16.79270760124082 6.309641830041715 16.479999999999997 6.416 L 8.936 8.936 L 15.064 15.064 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 -1.13 1.44)" >
+<path style="stroke: rgb(0,0,0); stroke-width: 1.8072289156626506; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" transform=" translate(-10.72, -13.28)" d="M 8.936 8.936 L 6.419 16.484 C 6.312641830041714 16.79670760124083 6.393202932890093 17.142682297078675 6.62676031790571 17.376239682094294 C 6.860317702921328 17.60979706710991 7.2062923987591745 17.690358169958287 7.519 17.584000000000003 L 15.067 15.068000000000003" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

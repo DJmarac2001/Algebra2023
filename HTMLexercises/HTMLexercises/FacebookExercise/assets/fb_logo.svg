@@ -1,0 +1,14 @@
+<svg id='Facebook_24' width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+
+
+<g transform="matrix(0.42 0 0 0.42 12 12)" >
+<g style="" >
+<g transform="matrix(1 0 0 1 0 0)" >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(3,155,229); fill-rule: nonzero; opacity: 1;" transform=" translate(-24, -24)" d="M 24 5 C 13.506589753214925 5 5 13.506589753214925 5 24 C 5 34.493410246785075 13.506589753214925 43 24 43 C 34.493410246785075 43 43 34.493410246785075 43 24 C 43 13.506589753214925 34.493410246785075 5 24 5 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 0.38 3.9)" >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" translate(-24.38, -27.9)" d="M 26.572 29.036 L 31.488999999999997 29.036 L 32.260999999999996 24.041 L 26.570999999999994 24.041 L 26.570999999999994 21.311 C 26.570999999999994 19.236 27.248999999999995 17.396 29.189999999999994 17.396 L 32.309 17.396 L 32.309 13.037 C 31.760999999999996 12.963000000000001 30.601999999999997 12.801 28.412 12.801 C 23.839 12.801 21.158 15.216000000000001 21.158 20.718 L 21.158 24.041 L 16.457 24.041 L 16.457 29.036 L 21.158 29.036 L 21.158 42.765 C 22.089 42.905 23.032 43 24 43 C 24.875 43 25.729 42.92 26.572 42.806 L 26.572 29.036 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

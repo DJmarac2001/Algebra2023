@@ -1,0 +1,388 @@
+* {
+  box-sizing: border-box;
+  font-family: "Finlandica";
+}
+
+body {
+  margin: 0;
+}
+
+/* BASIC GRID */
+.grid {
+  display: flex;
+}
+
+.grid__left {
+  width: 400px;
+  background-color: white;
+}
+
+.grid__center {
+  flex-grow: 1;
+  background-color: #dfdfe0;
+}
+
+.grid__right {
+  width: 300;
+  background-color: white;
+}
+
+/* GRID RIGHT ELEMENTS */
+hr {
+  width: 90%;
+  border-top: 2px rgb(126, 126, 126);
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.friends-text {
+  padding: 0 2rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+/* ZADACA KOMPONENTA 1 POCETAK CSS*/
+.chat-profile {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.chat-profile .chat-profile__name {
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 0 0.5rem;
+}
+
+.chat-profile .chat-profile__img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.chat-profile .chat-profile__icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+/* ZADACA KOMPONENTA 1 KRAJ CSS*/
+.chat-item {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.chat-item .chat-item__left {
+  display: flex;
+  align-items: center;
+}
+.chat-item .chat-item__left .chat-item__left__img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 3rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.chat-item .chat-item__left__name {
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.chat-item .chat-item__status {
+  width: 1rem;
+  height: 1rem;
+  background-color: #4dff4d;
+  border-radius: 2rem;
+}
+/* ZADACA KOMPONENTA 2 POCETAK CSS*/
+.chat-item__group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  border-radius: 10rem;
+  border: 2px solid #188af2;
+  padding: 0.5rem 4.5rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+/* VJEZBAO SAM TRANZICIJE PA SAM UBACIO NA BUTTON RAISE TRANZICIJU*/
+.chat-item__group:hover,
+.chat-item__group:focus {
+  box-shadow: 0 0.5em 0.5rem -0.4rem #188af2;
+  transform: translateY(-0.25rem);
+}
+
+.chat-item__group .chat-item__group__text {
+  color: #188af2;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.chat-item__group .chat-item__group__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+}
+/* ZADACA KOMPONENTA 2 KRAJ CSS*/
+
+/* GRID LEFT ELEMENTS*/
+
+.fb-logo {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3rem;
+  padding: 0;
+}
+
+.fb-logo .fb-logo__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fb-logo .fb-logo__left .fb-logo__icon {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+.fb-logo .fb-logo__left .fb-logo__text {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  color: #188af2;
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  border-radius: 10rem;
+  border: 2px solid #188af2;
+  padding: 0.5rem 2rem;
+  margin: 1rem 3rem;
+}
+
+.search-bar .search-bar__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+/* VJEZBAO SAM TRANZICIJU PUSH NA SEARCH ICON*/
+.search-bar .search-bar__icon:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.search-bar .search-bar__text {
+  font-weight: 600;
+  font-size: 1.25rem;
+  border: none;
+  outline: none;
+}
+/* ZADACA KOMPONENTA 3 POCETAK CSS*/
+.navbar__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 3rem;
+}
+
+.navbar__item .navbar__item__left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__item .navbar__item__left .navbar__item__left__icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 8px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+/* VJEZBAO SAM HOVER SHADOW I FILL ANIMACIJU */
+.navbar__item .navbar__item__left .navbar__item__left__icon:hover {
+  background-color: #1889f281;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 250ms;
+}
+
+.navbar__item .navbar__item__left .navbar__item__left__name {
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 0 1rem;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.navbar__item .navbar__item__left .navbar__item__left__notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 1.5rem;
+}
+
+.navbar__notification__count {
+  font-size: 1rem;
+  color: white;
+  background-color: #188af2;
+  border-radius: 1rem;
+  padding: 0.1rem 1rem;
+}
+/* ZADACA KOMPONENTA 3 KRAJ CSS*/
+.news-feed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 3rem;
+}
+
+.news-feed .news-feed__left {
+  display: flex;
+  align-items: center;
+}
+
+.news-feed .news-feed__left .news-feed__logo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* VJEZBAO SAM HOVER SHADOW I FILL TRANZICIJU */
+.news-feed .news-feed__left .news-feed__logo:hover {
+  background-color: #1889f281;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 250ms;
+}
+
+.news-feed .news-feed__left .news-feed__text {
+  font-weight: 600;
+  color: #188af2;
+  font-size: 1.25rem;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.news-feed .news-feed__icon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.notification {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1.5rem;
+  padding: 0;
+}
+
+.notification .notification__left {
+  display: flex;
+  align-items: center;
+}
+
+.notification .notification__img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.notification .notification__label {
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+
+.notification__close {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.notification__close .notification__close__img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: #2190f73b;
+}
+
+/* VJEZBAO SAM HOVER SHADOW TRANZICIJU */
+.notification__close .notification__close__img:hover {
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.notification__message {
+  width: 20rem;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0 1.5rem;
+  border-radius: 1rem;
+  background-color: #188af2;
+  cursor: pointer;
+}
+
+.notification__message .notification__messagetext {
+  width: 12rem;
+  text-align: left;
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.notification__message .notification__messagecount {
+  text-align: center;
+  width: 3rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* VJEZBAO SAM PULSE ANIMACIJU NA ELEMENTU */
+.notification__message:hover,
+.notification__message:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #1889f23d;
+  }
+}

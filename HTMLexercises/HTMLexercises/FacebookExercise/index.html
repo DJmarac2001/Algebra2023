@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vjezba</title>
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Finlandica:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="grid">
+      <div class="grid__left">
+        <div class="fb-logo">
+          <div class="fb-logo__left">
+            <img
+              title="This logo redirects to official Facebook Page"
+              class="fb-logo__icon"
+              src="./assets/fb_logo.svg"
+              alt="fb logo icon"
+            />
+            <p class="fb-logo__text">facebook</p>
+          </div>
+        </div>
+
+        <div class="search-bar">
+          <input class="search-bar__text" type="text" placeholder="Search" />
+          <img
+            class="search-bar__icon"
+            src="./assets/search.svg"
+            alt="searchbar icon"
+          />
+        </div>
+
+        <div class="news-feed">
+          <div class="news-feed__left">
+            <img
+              class="news-feed__logo"
+              src="./assets/house.svg"
+              alt="house icon"
+            />
+            <p class="news-feed__text">News Feed</p>
+          </div>
+          <img
+            title="This icon will open News Feed Menu"
+            class="news-feed__icon"
+            src="./assets/ellipsis-horizontal.svg"
+            alt="three dots icon"
+          />
+        </div>
+
+        <div class="navbar">
+          <nav>
+            <ul>
+              <!-- Zadaca Komponenta 3 Pocetak HTML -->
+              <li>
+                <div class="navbar__item">
+                  <div class="navbar__item__left">
+                    <img
+                      class="navbar__item__left__icon"
+                      src="./assets/navbar_icons/messenger.svg"
+                      alt="messenger icon"
+                    />
+                    <p class="navbar__item__left__name">Messenger</p>
+                    <div class="navbar__item__left__notification">
+                      <p class="navbar__notification__count">2</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!-- Zadaca Komponenta 3 Kraj HTML-->
+              <li>
+                <div class="navbar__item">
+                  <div class="navbar__item__left">
+                    <img
+                      class="navbar__item__left__icon"
+                      src="./assets/navbar_icons/watch.svg"
+                      alt="watch icon"
+                    />
+                    <p class="navbar__item__left__name">Watch</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="navbar__item">
+                  <div class="navbar__item__left">
+                    <img
+                      class="navbar__item__left__icon"
+                      src="./assets/navbar_icons/pages.svg"
+                      alt="pages icon"
+                    />
+                    <p class="navbar__item__left__name">Pages</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="navbar__item">
+                  <div class="navbar__item__left">
+                    <img
+                      class="navbar__item__left__icon"
+                      src="./assets/navbar_icons/games.svg"
+                      alt="games icon"
+                    />
+                    <p class="navbar__item__left__name">Games</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="navbar__item">
+                  <div class="navbar__item__left">
+                    <img
+                      class="navbar__item__left__icon"
+                      src="./assets/navbar_icons/explore.svg"
+                      alt="explore icon"
+                    />
+                    <p class="navbar__item__left__name">Explore</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="navbar__item">
+                  <div class="navbar__item__left">
+                    <img
+                      class="navbar__item__left__icon"
+                      src="./assets/navbar_icons/events.svg"
+                      alt="events icon"
+                    />
+                    <p class="navbar__item__left__name">Events</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="navbar__item">
+                  <div class="navbar__item__left">
+                    <img
+                      class="navbar__item__left__icon"
+                      src="./assets/navbar_icons/groups.svg"
+                      alt="groups icon"
+                    />
+                    <p class="navbar__item__left__name">Groups</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="navbar__item">
+                  <div class="navbar__item__left">
+                    <img
+                      class="navbar__item__left__icon"
+                      src="./assets/navbar_icons/collections.svg"
+                      alt="collections icon"
+                    />
+                    <p class="navbar__item__left__name">Collections</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="notification">
+          <div class="notification__left">
+            <img
+              class="notification__img"
+              src="./assets/bell.svg"
+              alt="Bell Icon"
+            />
+            <p class="notification__label">Notifications</p>
+          </div>
+
+          <div class="notification__close">
+            <img
+              class="notification__close__img"
+              src="./assets/close.svg"
+              alt="Close Icon"
+            />
+          </div>
+        </div>
+
+        <div class="notification__message">
+          <p class="notification__messagetext">
+            Friends Requests waiting in the list
+          </p>
+          <p class="notification__messagecount">2</p>
+        </div>
+      </div>
+
+      <div class="grid__center">
+        <!-- EMPTY MIDDLE GRID-->
+      </div>
+
+      <div class="grid__right">
+        <!-- Zadaca Komponenta 1 Pocetak HTML -->
+        <div class="chat-profile">
+          <p class="chat-profile__name">Mario Kramarić</p>
+          <img
+            class="chat-profile__img"
+            src="./assets/profile_photo.jpg"
+            alt="profile photo"
+          />
+          <img
+            class="chat-profile__icon"
+            src="./assets/bars.svg"
+            alt="bars icon"
+            title="Button for more about profile"
+          />
+        </div>
+        <!-- Zadaca Komponenta 1 Kraj HTML -->
+        <hr />
+        <p class="friends-text">Friends</p>
+        <ul>
+          <li>
+            <div class="chat-item">
+              <div class="chat-item__left">
+                <img
+                  class="chat-item__left__img"
+                  src="./assets/chat_photo.png"
+                  alt="chat profile photo"
+                />
+                <p class="chat-item__left__name">Stjepan Mesić</p>
+              </div>
+
+              <span class="chat-item__status"></span>
+            </div>
+          </li>
+          <li>
+            <div class="chat-item">
+              <div class="chat-item__left">
+                <img
+                  class="chat-item__left__img"
+                  src="./assets/chat_photo.png"
+                  alt="chat profile photo"
+                />
+                <p class="chat-item__left__name">Stjepan Mesić</p>
+              </div>
+
+              <span class="chat-item__status"></span>
+            </div>
+          </li>
+          <li>
+            <div class="chat-item">
+              <div class="chat-item__left">
+                <img
+                  class="chat-item__left__img"
+                  src="./assets/chat_photo.png"
+                  alt="chat profile photo"
+                />
+                <p class="chat-item__left__name">Stjepan Mesić</p>
+              </div>
+
+              <span class="chat-item__status"></span>
+            </div>
+          </li>
+          <li>
+            <div class="chat-item">
+              <div class="chat-item__left">
+                <img
+                  class="chat-item__left__img"
+                  src="./assets/chat_photo.png"
+                  alt="chat profile photo"
+                />
+                <p class="chat-item__left__name">Stjepan Mesić</p>
+              </div>
+
+              <span class="chat-item__status"></span>
+            </div>
+          </li>
+          <li>
+            <div class="chat-item">
+              <div class="chat-item__left">
+                <img
+                  class="chat-item__left__img"
+                  src="./assets/chat_photo.png"
+                  alt="chat profile photo"
+                />
+                <p class="chat-item__left__name">Stjepan Mesić</p>
+              </div>
+
+              <span class="chat-item__status"></span>
+            </div>
+          </li>
+          <li>
+            <div class="chat-item">
+              <div class="chat-item__left">
+                <img
+                  class="chat-item__left__img"
+                  src="./assets/chat_photo.png"
+                  alt="chat profile photo"
+                />
+                <p class="chat-item__left__name">Stjepan Mesić</p>
+              </div>
+
+              <span class="chat-item__status"></span>
+            </div>
+          </li>
+          <li>
+            <div class="chat-item">
+              <div class="chat-item__left">
+                <img
+                  class="chat-item__left__img"
+                  src="./assets/chat_photo.png"
+                  alt="chat profile photo"
+                />
+                <p class="chat-item__left__name">Stjepan Mesić</p>
+              </div>
+
+              <span class="chat-item__status"></span>
+            </div>
+          </li>
+          <li>
+            <div class="chat-item">
+              <div class="chat-item__left">
+                <img
+                  class="chat-item__left__img"
+                  src="./assets/chat_photo.png"
+                  alt="chat profile photo"
+                />
+                <p class="chat-item__left__name">Stjepan Mesić</p>
+              </div>
+
+              <span class="chat-item__status"></span>
+            </div>
+          </li>
+          <li>
+            <div class="chat-item">
+              <div class="chat-item__left">
+                <img
+                  class="chat-item__left__img"
+                  src="./assets/chat_photo.png"
+                  alt="chat profile photo"
+                />
+                <p class="chat-item__left__name">Stjepan Mesić</p>
+              </div>
+
+              <span class="chat-item__status"></span>
+            </div>
+          </li>
+          <li>
+            <div class="chat-item">
+              <div class="chat-item__left">
+                <img
+                  class="chat-item__left__img"
+                  src="./assets/chat_photo.png"
+                  alt="chat profile photo"
+                />
+                <p class="chat-item__left__name">Stjepan Mesić</p>
+              </div>
+
+              <span class="chat-item__status"></span>
+            </div>
+          </li>
+          <li>
+            <div class="chat-item">
+              <div class="chat-item__left">
+                <img
+                  class="chat-item__left__img"
+                  src="./assets/chat_photo.png"
+                  alt="chat profile photo"
+                />
+                <p class="chat-item__left__name">Stjepan Mesić</p>
+              </div>
+
+              <span class="chat-item__status"></span>
+            </div>
+          </li>
+          <li>
+            <div class="chat-item">
+              <div class="chat-item__left">
+                <img
+                  class="chat-item__left__img"
+                  src="./assets/chat_photo.png"
+                  alt="chat profile photo"
+                />
+                <p class="chat-item__left__name">Stjepan Mesić</p>
+              </div>
+
+              <span class="chat-item__status"></span>
+            </div>
+          </li>
+        </ul>
+        <!-- Zadaca Komponenta 2 Pocetak HTML -->
+        <div class="chat-item__group">
+          <p class="chat-item__group__text">New Group</p>
+          <img
+            class="chat-item__group__icon"
+            src="./assets/plus_icon.svg"
+            alt="plus icon"
+          />
+        </div>
+        <!-- Zadaca Komponenta 2 Kraj HTML -->
+      </div>
+    </div>
+  </body>
+</html>
