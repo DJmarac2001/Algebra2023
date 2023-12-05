@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  font-size: 200%;
+  font-family: verdana;
+}
+
+h2 {
+  text-align: center;
+  font-size: 150%;
+  font-family: verdana;
+}
+
+p {
+  text-align: center;
+  font-size: 100%;
+  font-family: verdana;
+}
+
+.testtekst {
+  margin: auto;
+  text-align: center;
+  font-size: 100%;
+  font-family: verdana;
+  width: 700px;
+  padding: 100x;
+}
+
+header {
+  text-align: center;
+  font-family: verdana;
+  font-size: 200%;
+  background-color: #0d0d0d;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  margin: 0;
+}
+
+.chat-item {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chat-item .chat-item__img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+  object-fit: cover;
+}
+
+.chat-item .chat-item__left {
+  display: flex;
+  align-items: center;
+}
+
+.chat-item .chat-item__name {
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 0 0.5rem;
+}
+
+.chat-item .chat-item__status {
+  width: 1rem;
+  height: 1rem;
+  background-color: #00c200;
+  border-radius: 2rem;
+}
+
+.notification {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notification .notification__left {
+  display: flex;
+  align-items: center;
+}
+
+.notification .notification__img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+.notification .notification__label {
+  font-weight: 500;
+  padding: 0 0.5rem;
+}
+
+.notification__close {
+  display: flex;
+  align-items: center;
+}
+
+.notification__close .notification__close__img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: #2190f73b;
+}
+
+/* Dodatak za message koji sam radio */
+.notification__message {
+  width: 20rem;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: #188af2;
+}
+
+.notification__message .notification__messagetext {
+  width: 12rem;
+  text-align: left;
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.notification__message .notification__messagecount {
+  text-align: center;
+  width: 3rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+}

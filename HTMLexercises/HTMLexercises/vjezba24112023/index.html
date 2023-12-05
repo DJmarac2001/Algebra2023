@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vjezba 24.11</title>
+    <link rel="stylesheet" href="./components/base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function myFunction() {
+        var x = Math.floor(Math.random() * 10) + 1;
+        if (x <= 6) {
+          document.getElementById("btn").innerHTML = "Login Sucessful!";
+          document.getElementById("btn").style.backgroundColor = "green";
+        } else {
+          document.getElementById("btn").innerHTML = "Login Failed!";
+          document.getElementById("btn").style.backgroundColor = "red";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="grid__item grid__item--tall">
+        <div class="card card--clean">
+          <img
+            class="card__profile"
+            src="./components/assets/images/profile pic.jpg"
+            alt="profile photo"
+          />
+          <div class="type__h4">report for</div>
+          <div class="type__h1 type__thin">Jeremy Robson</div>
+          <button id="btn" type="button" onclick="myFunction()">
+            Login Here!
+          </button>
+        </div>
+        <div class="grid__item__footer">
+          <div class="type__h4 mb-3">Daily</div>
+          <div class="type__h3 mb-3">Weekly</div>
+          <div class="type__h4 mb-3">Monthly</div>
+        </div>
+      </div>
+      <div class="grid__item grid__item--orange">
+        <img
+          class="grid__item__img"
+          src="./components/assets/icons/icon-work.svg"
+          alt="work icon"
+        />
+        <div class="card">
+          <div class="card__header">
+            <div class="type__h2">Work</div>
+            <div class="icon-dots"><span></span><span></span><span></span></div>
+          </div>
+          <div class="card__body">
+            <h1 class="type__huge type__thin">32hrs</h1>
+            <div class="type__h4">Last Week - 36hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="grid__item grid__item--blue">
+        <img
+          class="grid__item__img"
+          src="./components/assets/icons/icon-play.svg"
+          alt="work icon"
+        />
+        <div class="card">
+          <div class="card__header">
+            <div class="type__h2">Play</div>
+            <div class="icon-dots"><span></span><span></span><span></span></div>
+          </div>
+          <div class="card__body">
+            <h1 class="type__huge type__thin">10hrs</h1>
+            <div class="type__h4">Last Week - 8hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="grid__item grid__item--red">
+        <img
+          class="grid__item__img"
+          src="./components/assets/icons/icon-study.svg"
+          alt="work icon"
+        />
+        <div class="card">
+          <div class="card__header">
+            <div class="type__h2">Study</div>
+            <div class="icon-dots"><span></span><span></span><span></span></div>
+          </div>
+          <div class="card__body">
+            <h1 class="type__huge type__thin">4hrs</h1>
+            <div class="type__h4">Last Week - 7hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="grid__item grid__item--green">
+        <img
+          class="grid__item__img"
+          src="./components/assets/icons/icon-exercise.svg"
+          alt="work icon"
+        />
+        <div class="card">
+          <div class="card__header">
+            <div class="type__h2">Exercise</div>
+            <div class="icon-dots"><span></span><span></span><span></span></div>
+          </div>
+          <div class="card__body">
+            <h1 class="type__huge type__thin">4hrs</h1>
+            <div class="type__h4">Last Week - 5hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="grid__item grid__item--purple">
+        <img
+          class="grid__item__img"
+          src="./components/assets/icons/icon-social.svg"
+          alt="work icon"
+        />
+        <div class="card">
+          <div class="card__header">
+            <div class="type__h2">Social</div>
+            <div class="icon-dots"><span></span><span></span><span></span></div>
+          </div>
+          <div class="card__body">
+            <h1 class="type__huge type__thin">5hrs</h1>
+            <div class="type__h4">Last Week - 10hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="grid__item grid__item--yellow">
+        <img
+          class="grid__item__img"
+          src="./components/assets/icons/icon-self-care.svg"
+          alt="work icon"
+        />
+        <div class="card">
+          <div class="card__header">
+            <div class="type__h2">Self Care</div>
+            <div class="icon-dots"><span></span><span></span><span></span></div>
+          </div>
+          <div class="card__body">
+            <h1 class="type__huge type__thin">2hrs</h1>
+            <div class="type__h4">Last Week - 2hrs</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

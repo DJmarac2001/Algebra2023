@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vjezba</title>
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--primjer 1 (chatbox)-->
+    <div class="chat-item">
+      <div class="chat-item__left">
+        <img
+          class="chat-item__img"
+          src="./assets/profile_photo.png"
+          alt="Profile Photo"
+        />
+        <p class="chat-item__name">Mario Kramarić</p>
+      </div>
+
+      <span class="chat-item__status"></span>
+    </div>
+    <hr />
+    <!--primjer 2 (notifications)-->
+    <div class="notification">
+      <div class="notification__left">
+        <img
+          class="notification__img"
+          src="./assets/bell.svg"
+          alt="Bell Icon"
+        />
+        <p class="notification__label">Notifications</p>
+      </div>
+
+      <div class="notification__close">
+        <img
+          class="notification__close__img"
+          src="./assets/close.svg"
+          alt="Close Icon"
+        />
+      </div>
+    </div>
+
+    <!--dodatak koji sam radio-->
+    <div class="notification__message">
+      <p class="notification__messagetext">
+        Friends Requests waiting in the list
+      </p>
+      <p class="notification__messagecount">2</p>
+    </div>
+  </body>
+</html>

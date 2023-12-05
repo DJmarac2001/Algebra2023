@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+}
+.header-message {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15rem;
+  margin: 0;
+  max-width: 100%;
+  max-height: 2rem;
+}
+
+.header-message .header-message__text {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.header-message .header-message__button {
+  background-color: orangered;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.website-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-logo .website-logo__img {
+  height: 300px;
+  object-fit: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-list .navbar-list__links {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0 1rem;
+}
+.navbar-list .navbar-list__links:link {
+  text-decoration: none;
+}
+
+.navbar-list .navbar-list__links:visited {
+  text-decoration: none;
+}
+
+.navbar-list .navbar-list__links:hover {
+  text-decoration: underline;
+}
+
+.navbar-list .navbar-list__links:active {
+  text-decoration: underline;
+}
+
+.navbar-list .navbar-list__search {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.content-container .article-button {
+  width: 1rem;
+  height: 1rem;
+}
+
+.content-container .content-container__article {
+  width: 300px;
+  height: 300px;
+}
+
+.content-container .content-container__article__img {
+  width: 300px;
+  height: 300px;
+}
+
+.content-container .content-container__article__text {
+}
+
+.content-container .content-container__article__text .article-headline {
+}
+
+.content-container .content-container__article__text .article-info {
+}
+
+.content-container .content-container__article__text .article-text {
+}

@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+// B
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  margin: 1rem;
+  padding: 0.5rem;
+
+  // E
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 5rem;
+    background-color: blue;
+    cursor: pointer;
+    // E
+    &__txt {
+      color: white;
+      font-weight: 500;
+      font-size: 1.5rem;
+    }
+  }
+  // E
+  &__nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: blue;
+    width: 40%;
+    height: 5rem;
+    // E
+    &__item {
+      background-color: greenyellow;
+      align-items: center;
+      justify-content: center;
+      height: 3.5rem;
+      width: 3rem;
+      margin-right: 0.5rem;
+      cursor: pointer;
+      // M
+      &--yellow {
+        background-color: yellow;
+      }
+    }
+  }
+}
+// B
+.grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: gray;
+  margin: 1rem;
+  gap: 1rem;
+  // E
+  &__item {
+    background-color: blue;
+    height: 18.75rem;
+    width: calc(32% + (-1rem));
+    gap: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+  }
+}

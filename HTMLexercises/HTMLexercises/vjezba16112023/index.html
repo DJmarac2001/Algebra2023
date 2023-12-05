@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index HTML</title>
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="layout">
+      <div class="layout__aside">
+        <div class="layout__aside__item">
+          <div class="circle circle--active">
+            <p class="circle__number">1</p>
+          </div>
+          <div class="item__step">
+            <p class="item__step__number">STEP 1</p>
+            <p class="item__step__name">YOUR INFO</p>
+          </div>
+        </div>
+        <div class="layout__aside__item">
+          <div class="circle">
+            <p class="circle__number">2</p>
+          </div>
+          <div class="item__step">
+            <p class="item__step__number">STEP 2</p>
+            <p class="item__step__name">SELECT PLAN</p>
+          </div>
+        </div>
+        <div class="layout__aside__item">
+          <div class="circle">
+            <p class="circle__number">3</p>
+          </div>
+          <div class="item__step">
+            <p class="item__step__number">STEP 3</p>
+            <p class="item__step__name">ADD-ONS</p>
+          </div>
+        </div>
+        <div class="layout__aside__item">
+          <div class="circle">
+            <p class="circle__number">4</p>
+          </div>
+          <div class="item__step">
+            <p class="item__step__number">STEP 4</p>
+            <p class="item__step__name">SUMMARY</p>
+          </div>
+        </div>
+      </div>
+      <div class="layout__main">
+        <div>
+          <h1 class="layout__main__title">Personal info</h1>
+          <h2 class="layout__main__text">
+            Please provide your name, email adress, and phone number.
+          </h2>
+          <div class="field">
+            <label class="field__text" for="name">Name</label>
+            <input
+              class="field__input"
+              type="text"
+              id="name"
+              placeholder="e.g. Stephen King"
+            />
+          </div>
+          <div class="field">
+            <label class="field__text" for="email">Email Address</label>
+            <input
+              class="field__input"
+              type="text"
+              id="email"
+              placeholder="e.g. stephenking@lorem.com"
+            />
+          </div>
+          <div class="field">
+            <label class="field__text" for="phone">Phone Number</label>
+            <input
+              class="field__input"
+              type="tel"
+              id="phone"
+              placeholder="e.g. +1 234 567 890"
+            />
+          </div>
+        </div>
+        <button class="footer">Next Step</button>
+      </div>
+    </div>
+  </body>
+</html>

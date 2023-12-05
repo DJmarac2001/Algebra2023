@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMOOTHIE | CONTACT ME</title>
+    <link rel="stylesheet" href="./../styles/stylesheet.css" />
+    <link rel="stylesheet" href="./../styles/components/btn.css" />
+    <link rel="stylesheet" href="./../styles/components/field.css" />
+  </head>
+  <body style="background-color: #ffc88a">
+    <div class="container">
+      <header>
+        <nav>
+          <a href="./../index.html">HOME</a>
+          <a href="./contact-me.html">KONTAKTIRAJTE ME</a>
+        </nav>
+      </header>
+
+      <h1>OSTAVITE PORUKU</h1>
+
+      <div class="field">
+        <label for="name">Ime I Prezime</label>
+        <input type="text" id="name" placeholder="Vaše Ime i Prezime" />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="mojemail@mojadomena.hr" />
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Ovdje ostavite Vašu poruku..."
+        ></textarea>
+      </div>
+      <div class="field">
+        <label for="upload">Upload file</label>
+        <input type="file" name="" id="upload" />
+      </div>
+      <div>
+        <input type="checkbox" />
+        <label for="checkbox" id="checkbox">Prihvaćate uvjete korištenja</label>
+      </div>
+      <br />
+      <button>Pošalji Poruku</button>
+    </div>
+  </body>
+</html>

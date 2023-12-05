@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  background-color: rgba(211, 211, 211, 0.767);
+}
+
+:root {
+  --main-color: white;
+  --sec-color: rgb(163, 163, 163);
+  --trd-color: black;
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--main-color);
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: 0 0 2px 0 black;
+}
+.layout__aside {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./../assets/sidebar-bg.svg);
+  width: 274px;
+  height: 568px;
+}
+.layout__aside__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.layout__main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 2rem 8rem;
+  width: 20vw;
+}
+.layout__main__title {
+  font-size: 1.6rem;
+  color: var(--trd-color);
+  margin: 0.5rem 0;
+}
+.layout__main__text {
+  font-size: 0.8rem;
+  color: var(--sec-color);
+  margin: 0.5rem 0 2rem 0;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--main-color);
+  width: 2rem;
+  height: 2rem;
+  margin: 1.5rem 0.5rem 1.5rem 1.5rem;
+  border-radius: 50%;
+  font-weight: 600;
+  color: var(--main-color);
+  cursor: pointer;
+}
+.circle--active {
+  background-color: white;
+  font-weight: 600;
+  color: black;
+  box-shadow: 0 0 5px 0 black;
+}
+
+.item__step {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.item__step__number {
+  font-size: 0.6rem;
+  color: var(--sec-color);
+  margin: 0;
+}
+.item__step__name {
+  font-size: 1rem;
+  color: var(--main-color);
+  font-weight: 500;
+  margin: 2px 0;
+  cursor: pointer;
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 0 1.5rem 0;
+}
+.field__text {
+  font-size: 1rem;
+  color: var(--trd-color);
+  font-weight: 500;
+  margin: 0rem 0rem 0.2rem 0rem;
+}
+.field__input {
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: var(--sec-color);
+  width: 100%;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.footer {
+  align-self: flex-end;
+  justify-self: flex-end;
+  border: none;
+  margin: 8rem 0 0 0;
+  padding: 10px 25px;
+  border-radius: 10%;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: blue;
+  color: var(--main-color);
+  cursor: pointer;
+}/*# sourceMappingURL=base.css.map */
